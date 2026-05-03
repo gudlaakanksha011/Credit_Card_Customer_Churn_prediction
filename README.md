@@ -22,6 +22,7 @@ The project is contained within credit_card_customer_churn_prediction.py and fol
        AVG(Avg_Utilization_Ratio) as Avg_Usage
 FROM bank_churners
 GROUP BY Attrition_Flag;
+
 ## 🔍 Visual Insights
 
 Our analysis produced several key visualizations to assist bank management:  
@@ -29,7 +30,8 @@ Heatmaps: Correlating Income and Education Level to identify "at-risk" segments 
 Distribution Plots: Highlighting the "Engagement Gap" where churned customers peak at low transaction volumes.  
 Correlation Matrix: Showing the strong relationship between transaction count and total amount.  
 
-##💡 Strategic Recommendations
+## 💡 Strategic Recommendations
+
 Re-activation Campaigns: Target customers whose transaction counts drop month-over-month before they reach the "churn zone" of 40-50 transactions.  
 Cross-Selling Incentives: Offer benefits for opening a third or fourth product, as this drastically reduces the probability of leaving.  
 Utilization Boost: Encourage card usage for daily small-ticket items to increase the utilization ratio, which is currently low (16%) among churners.  
